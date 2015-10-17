@@ -1,0 +1,18 @@
+<h2 class="page-header">Current Status |
+  <button type="button" class="btn btn-primary" ng-click="vm.refresh()"><i class="glyphicon glyphicon-repeat"></i> Refresh</button>
+</h2>
+<div ng-if="vm.data">
+  <div ng-repeat="(key, value) in vm.data">
+    <i class="title">{{value.display}} : </i>
+    <div ng-repeat="val in value.values">
+      {{val}}
+    </div>
+    <div ng-if="value.values.length === 0">
+      [No Data]
+    </div>
+    <hr>
+  </div>
+</div>
+<div ng-if="!vm.data">
+  <i class="glyphicon glyphicon-refresh"></i> Loading...
+</div>
