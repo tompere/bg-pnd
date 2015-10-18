@@ -8,7 +8,7 @@
 
 * npm
 * grunt
-* [ruby-compass](http://compass-style.org/install/) and saas (`gem install sass`)
+* [ruby-compass](http://compass-style.org/install/) and sass (`gem install sass`)
 
 ### Run
 
