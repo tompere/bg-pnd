@@ -77,7 +77,7 @@ a body example:
 }
 </pre>
 
-###### `HTTP 204 NOT CONTENT`
+###### `HTTP 204 NO CONTENT`
 
 if status request is not done yet **and** no newer status request is done.
 
@@ -86,7 +86,7 @@ if status request is not done yet **and** no newer status request is done.
 if status request was made over 1 minute ago. User must create a new request.
 <pre>
 {
-  "content": {
+  "msg": {
     "request is out-of-date and permanently unavailable, please re-issue an new status request"
   }
 }
