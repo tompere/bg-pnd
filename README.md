@@ -79,7 +79,7 @@ a body example:
 
 ###### `HTTP 204 NOT CONTENT`
 
-if status request is not done yet **or** no newer status request is done.
+if status request is not done yet **and** no newer status request is done.
 
 ###### `HTTP 410 GONE`
 
