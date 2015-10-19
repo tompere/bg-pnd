@@ -12,11 +12,11 @@
 
 ### Run
 
-* `grunt build` for building production code
+* `grunt build` for building production code (into `/dist`)
 * `grunt serve` for locally running code (`http://localhost:9000`)
 * `grunt serve:dist` for locally running production code
 
-### github API
+### GitHub API
 
 used the following API resources
 
@@ -30,7 +30,6 @@ for seeing all recent messages
 
 #### base url : `/api/v1/`
 
-#### github resource
 ##### GET `/api/v1/github/`
 general request, will result in fixed status:
 
@@ -45,7 +44,7 @@ general request, will result in fixed status:
 ##### POST `/api/v1/github/current`
 create a new request for github status; response is:
 
-`HTTP 202 CREATED`
+`HTTP 202 ACCEPTED`
 
 `Location: /current/1445092065925`
 
